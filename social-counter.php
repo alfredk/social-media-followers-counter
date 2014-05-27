@@ -52,7 +52,7 @@ class FollowerCounterWidget extends WP_Widget
 		$access_token_secret 	= $instance['access_token_secret'];
 		
 		?>        
-		<div class="side-socials">
+		<div class="side-socials widget">
 			<h2><?php echo $title; ?></h2>
 			<ul>   
 				<?php if(function_exists('curl_init') && !empty($facebook)){ ?>               
